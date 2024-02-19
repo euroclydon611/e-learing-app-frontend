@@ -13,6 +13,7 @@ const Hero: FC<Props> = (props) => {
             src={require("../../public/images/hero-image1.png")}
             alt="hero-image"
             className="object-contain 1100px:max-w-[90%] w-[90%] 1500px:max-w-[85%] h-auto z-10"
+            priority
           />
         </div>
       </div>
